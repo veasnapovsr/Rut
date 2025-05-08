@@ -6,7 +6,7 @@ import '../../models/participant_model.dart';
 class ParticipantView extends StatelessWidget {
   final bool isDarkMode;
   final VoidCallback toggleTheme;
-
+//main view for displaying participants.
   const ParticipantView({
     super.key,
     required this.isDarkMode,
